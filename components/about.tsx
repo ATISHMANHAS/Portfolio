@@ -10,12 +10,10 @@ const skills = [
 
 const qualifications = [
   {
-    year: "2023-2025",
     degree: "Bachelor of Science (B.Sc.) in Mathematics",
     institution: "Cluster University of Jammu, Govt. Gandhi Memorial College, Jammu, India",
   },
   {
-    year: "2023-2025",
     degree: "Data Science with SQL Certificate",
     institution: "Edureka, Jammu, India",
   },
