@@ -2,7 +2,6 @@ import { Card, CardContent } from "@/components/ui/card"
 
 const skills = [
   { name: "Python", level: 85 },
-  { name: "C++", level: 80 },
   { name: "SQL", level: 85 },
   { name: "Machine Learning", level: 80 },
   { name: "Computer Vision", level: 75 },
