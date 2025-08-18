@@ -2,7 +2,7 @@ import { Card, CardContent } from "@/components/ui/card"
 
 const services = [
   {
-    title: "Data Science & Analytics",
+    title: "Data Science & Analytics!",
     description: "Deliver data-driven solutions that improve efficiency and drive growth through advanced analytics and machine learning.",
     icon: "📊",
   },
