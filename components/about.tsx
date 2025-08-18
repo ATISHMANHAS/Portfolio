@@ -83,12 +83,11 @@ export default function About() {
           <div className="relative border-l-2 border-muted-foreground pl-8 ml-4">
             {qualifications.map((qual, index) => (
               <div
-                key={`${qual.degree}-${qual.year}`}
+                key={`${qual.degree}-${index}`}
                 className="mb-8 relative animate-slideInLeft"
                 style={{ animationDelay: `${index * 200}ms` }}
               >
                 <div className="absolute -left-10 mt-1.5 w-4 h-4 rounded-full bg-primary" />
-                <div className="text-sm text-primary font-semibold">{qual.year}</div>
                 <div className="text-xl font-medium">{qual.degree}</div>
                 <div className="text-muted-foreground">{qual.institution}</div>
               </div>
@@ -145,4 +144,3 @@ export default function About() {
     </section>
   )
 }
-
